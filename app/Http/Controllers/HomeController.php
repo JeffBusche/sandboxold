@@ -33,4 +33,9 @@ class HomeController extends Controller {
 		return view('home');
 	}
 
+	public function box()
+	{
+		return echo 'hello from box':
+	}
+
 }
